@@ -1,0 +1,19 @@
+.sectionEmpresa {
+    height: auto;
+}
+
+.card1 {
+    height: auto;
+    width: 30rem;
+    color: $amarillo;
+    font-size: 10rem;
+    border: 2px solid $amarillo;
+}
+
+.card2 {
+    @extend .card1;
+}
+
+.card3 {
+    @extend .card2;
+}

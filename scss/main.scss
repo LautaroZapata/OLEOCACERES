@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html { /* etiqueta raíz */
+    font-size: 62.5%;
+    }
+
+    // IMPORTS ARCHIVOS .SCSS
+@import "variables";
+@import "header_Mobile";
+@import "sectionAnimation_Mobile";
+@import "sectionEmpresa_Mobile";
+@import "sectionNuestrosClientes_Mobile";
+@import "sectionTrabajos_Mobile";

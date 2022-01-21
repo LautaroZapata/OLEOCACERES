@@ -1,0 +1,208 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  /* etiqueta raíz */
+  font-size: 62.5%; }
+
+.titles {
+  font-family: Inter;
+  font-weight: 700;
+  font-size: 2.4rem;
+  color: white;
+  z-index: 100; }
+
+.subtitles {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 2rem;
+  color: black; }
+
+.navText {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 1.8rem;
+  color: black; }
+
+.pText {
+  font-family: Inter;
+  font-weight: 300;
+  font-size: 1.5rem;
+  color: black; }
+
+.sectionAnimationBg {
+  width: 100%;
+  position: relative;
+  background-image: url(../images/cilindro.jpeg);
+  height: 40vh;
+  background-size: cover;
+  animation: rebote 5s infinite linear alternate; }
+
+.gradientBg {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: linear-gradient(to right, black, #ffd000);
+  opacity: 0.6; }
+
+@keyframes rebote {
+  from {
+    background-position: bottom left; }
+  to {
+    background-position: top right; } }
+
+.sectionEmpresa {
+  height: auto; }
+
+.card1, .card2, .card3 {
+  height: auto;
+  width: 30rem;
+  color: #ffd000;
+  font-size: 10rem;
+  border: 2px solid #ffd000; }
+
+.sectionNuestrosClientes {
+  height: 50vh; }
+
+.logos {
+  height: 15rem;
+  margin-top: 5rem;
+  width: 100%;
+  overflow: hidden; }
+
+.contenidoLogos {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  animation: scrolling 15s linear infinite alternate; }
+
+@keyframes scrolling {
+  0% {
+    transform: translateX(0vw); }
+  100% {
+    transform: translateX(-365vw); } }
+
+.logoBg {
+  height: 10rem;
+  width: 10rem;
+  background-image: url(../images/logoANCAP.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  flex-shrink: 0; }
+
+.logoBg2 {
+  height: 10rem;
+  width: 10rem;
+  background-image: url(../images/logoafe.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  flex-shrink: 0; }
+
+.logoBg3 {
+  height: 10rem;
+  width: 10rem;
+  background-image: url(../images/logoArmadaNacional.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  flex-shrink: 0; }
+
+.logoBg4 {
+  height: 10rem;
+  width: 10rem;
+  background-image: url(../images/logoicanelones.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  flex-shrink: 0; }
+
+.logoBg5 {
+  height: 10rem;
+  width: 10rem;
+  background-image: url(../images/logoiColonia.png);
+  background-size: cover;
+  background-position: center;
+  flex-shrink: 0;
+  background-repeat: no-repeat; }
+
+.logoBg6 {
+  height: 10rem;
+  width: 10rem;
+  background-image: url(../images/logoIM.png);
+  background-size: cover;
+  background-position: center;
+  flex-shrink: 0;
+  background-repeat: no-repeat; }
+
+.logoBg7 {
+  height: 10rem;
+  width: 10rem;
+  background-image: url(../images/logoiMaldonado.png);
+  background-size: contain;
+  background-position: center;
+  flex-shrink: 0;
+  background-repeat: no-repeat; }
+
+.logoBg8 {
+  height: 9rem;
+  width: 7rem;
+  background-image: url(../images/logoInstitutoAntártico.png);
+  background-size: contain;
+  background-position: center;
+  flex-shrink: 0;
+  background-repeat: no-repeat; }
+
+.logoBg9 {
+  height: 10rem;
+  width: 10rem;
+  background-image: url(../images/logoiPaysandu.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  flex-shrink: 0; }
+
+.logoBg10 {
+  height: 10rem;
+  width: 10rem;
+  background-image: url(../images/logoiSalto.jpg);
+  background-size: contain;
+  background-position: center;
+  flex-shrink: 0;
+  background-repeat: no-repeat; }
+
+.logoBg11 {
+  height: 10rem;
+  width: 10rem;
+  background-image: url(../images/bomberos.png);
+  background-size: cover;
+  background-position: center;
+  flex-shrink: 0;
+  background-repeat: no-repeat; }
+
+.sectionTrabajos {
+  height: auto;
+  width: 100%; }
+
+.trabajo1ImgContainer {
+  margin-top: 3rem;
+  height: 30rem;
+  width: 100%; }
+
+.trabajo1Img {
+  max-width: 100%;
+  max-height: 100%; }
+
+.trabajo1TextContainer {
+  width: 100%;
+  display: flex; }
+
+.trabajo1Text {
+  columns: 2;
+  column-rule: solid 2px #ffd000;
+  margin-left: 1rem;
+  margin-right: 1rem; }
