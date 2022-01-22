@@ -206,3 +206,19 @@ html {
   column-rule: solid 2px #ffd000;
   margin-left: 1rem;
   margin-right: 1rem; }
+
+footer {
+  background-color: #ffd000; }
+
+.footerText {
+  font-family: Inter;
+  font-weight: 300;
+  font-size: 1rem;
+  color: black; }
+
+.noDecoration {
+  color: black; }
+
+.iFooter {
+  font-size: 2rem;
+  color: black; }
