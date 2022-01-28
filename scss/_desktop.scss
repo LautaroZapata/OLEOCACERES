@@ -1,0 +1,166 @@
+@media (min-width: 1200px) {
+
+    html::-webkit-scrollbar {
+        width: 13px;
+        background: #ffd000;
+    }
+    html::-webkit-scrollbar-thumb {
+        background:#ff9307;
+        border-radius: 10px;
+        border-right: 2px solid #ff9307;
+    }
+    // TITULOS SUBTITULOS PARRAFOS start
+
+.titles {
+    font-family: Lato;
+    font-weight: 700;
+    font-size: 8rem;
+    color: white;
+    z-index: 100;
+}
+
+.subtitles {
+    font-family: Lato;
+    font-weight: 500;
+    font-size: 4rem;
+    color: black;
+}
+
+.navText {
+    font-family: Lato;
+    font-weight: 300;
+    font-size: 2.5rem;
+    color:black;
+}
+
+.pText {
+    font-family: Lato;
+    font-weight: 300;
+    font-size: 2rem;
+    color: black;
+}
+
+// TITULOS SUBTITULOS PARRAFOS end
+
+// SECTION 1 ANIMATION start
+
+
+.sectionAnimationBg {
+    width: 100%;
+    position: relative;
+    background-image: url(../images/cilindro.jpeg);
+    height: 100vh;
+    background-size: cover;
+    animation: rebote 10s infinite linear alternate;
+}
+
+.gradientBg {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: linear-gradient(to right,black, $amarillo);
+    opacity: 0.7;
+}
+
+
+@keyframes rebote {
+    from {
+        background-position: bottom left 
+    }
+    to {
+        background-position: top right
+    }
+}
+
+
+
+
+// SECTION 1 ANIMATION end
+
+
+// SECTION EMPRESA START
+.sectionEmpresa {
+    height: auto;
+}
+
+.card1 {
+    height: auto;
+    width: 33rem;
+    color: $amarillo;
+    font-size: 10rem;
+    border: 2px solid $amarillo;
+    margin-right: 5rem;
+    margin-left: 5rem;
+}
+
+
+// SECTION EMPRESA END
+
+// SECTION TRABAJOS START
+
+.trabajo1ImgContainer {
+    margin-top: 5rem;
+    height: 80rem;
+    width: 100%;
+}
+// SECTION TRABAJOS END
+
+// SECTION NUESTROS CLIENTES START
+
+.sectionNuestrosClientes {
+    height: 50vh;
+}
+
+.logos{     
+    height: 15rem;
+    margin-top: 5rem;
+    width: 100%;
+    // background-color: black;
+    overflow: hidden;
+}
+.contenidoLogos {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    animation: scrolling 18s linear infinite alternate ;
+}
+
+@keyframes scrolling {
+    0% {transform: translateX(0vw);}
+    100% {transform: translateX(-93vw);}
+}
+
+// SECTION NUESTROS CLIENTES END
+
+
+// SECTION FOOTER START
+
+footer {
+    background-color: #fff;
+}
+
+.footerText {
+    font-family: Lato;
+    font-weight: 500;
+    font-size: 1.7rem;
+    color: #000;
+}
+.footerTitles {
+    font-family: Lato;
+    font-weight: 500;
+    font-size: 2.5rem;
+    color: #000;
+}
+
+.noDecoration {
+    
+    color: #000;
+}
+
+.iFooter {
+    font-size: 1.5rem;
+    color: #000;
+}
+
+// SECTION FOOTER END
+}

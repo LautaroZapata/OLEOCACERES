@@ -8,6 +8,8 @@ html { /* etiqueta raíz */
     font-size: 62.5%;
     }
 
+
+
     // IMPORTS ARCHIVOS .SCSS
 @import "variables";
 @import "header_Mobile";
@@ -16,4 +18,5 @@ html { /* etiqueta raíz */
 @import "sectionNuestrosClientes_Mobile";
 @import "sectionTrabajos_Mobile";
 @import "footer_Mobile";
+@import "desktop";
 
