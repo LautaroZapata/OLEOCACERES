@@ -212,7 +212,7 @@ html {
   margin-right: 1rem; }
 
 footer {
-  background-color: #ffd000; }
+  background-color: #fbfbfb; }
 
 .footerText {
   font-family: Lato;
@@ -226,6 +226,11 @@ footer {
 .iFooter {
   font-size: 1.5rem;
   color: black; }
+
+.noDecoration:hover {
+  color: #ffd000;
+  transform: scale(1.1);
+  transition: all 1s; }
 
 @media (min-width: 1200px) {
   html::-webkit-scrollbar {
@@ -306,7 +311,7 @@ footer {
     100% {
       transform: translateX(-93vw); } }
   footer {
-    background-color: #fff; }
+    background-color: #fbfbfb; }
   .footerText {
     font-family: Lato;
     font-weight: 500;
@@ -319,6 +324,10 @@ footer {
     color: #000; }
   .noDecoration {
     color: #000; }
+  .noDecoration:hover {
+    color: #ffd000;
+    transform: scale(1.1);
+    transition: all 1s; }
   .iFooter {
     font-size: 1.5rem;
     color: #000; } }

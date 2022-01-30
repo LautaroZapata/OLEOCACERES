@@ -136,7 +136,7 @@
 // SECTION FOOTER START
 
 footer {
-    background-color: #fff;
+    background-color: #fbfbfb;
 }
 
 .footerText {
@@ -157,6 +157,11 @@ footer {
     color: #000;
 }
 
+.noDecoration:hover {
+    color: $amarillo;
+    transform: scale(1.1);
+    transition: all 1s;
+}
 .iFooter {
     font-size: 1.5rem;
     color: #000;

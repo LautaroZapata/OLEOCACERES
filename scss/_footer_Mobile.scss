@@ -1,7 +1,6 @@
 footer {
-    background-color: $amarillo;
+    background-color: #fbfbfb;
 }
-
 .footerText {
     font-family: Lato;
     font-weight: 500;
@@ -9,12 +8,17 @@ footer {
     color: black;
 }
 
-.noDecoration {
-    
+.noDecoration {   
     color: black;
 }
 
 .iFooter {
     font-size: 1.5rem;
     color: black;
+}
+
+.noDecoration:hover {
+    color: $amarillo;
+    transform: scale(1.1);
+    transition: all 1s;
 }
